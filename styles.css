@@ -1,0 +1,221 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9a825; /* Cor de fundo amarela */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #FFCB04;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+header .logo img {
+    height: 80px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header nav ul li a.inscreva-se {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-color: #FFCB04;
+}
+
+.hero img {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Seção de Adoção */
+.adopt-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+    background-color: #F5B42C;
+}
+
+.adopt-content {
+    max-width: 500px;
+}
+
+.adopt-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.adopt-content p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.adopt-content .button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.adopt-cats img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Seção de Adoção 2 */
+.adopt-section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+    background-color: #F5B42C;
+}
+
+.adopt-content-2 {
+    max-width: 500px;
+}
+
+.adopt-content-2 h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.adopt-content-2 p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.adopt-content-2 .button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.adopt-cats-2 img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Seção de Doação e Voluntariado */
+.donate-section {
+    padding: 50px 40px;
+    background-color: #F5B42C;
+}
+
+.donate-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.donate-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.donate-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: #ffcc80;
+}
+
+.donate-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.donate-item p {
+    margin-bottom: 20px;
+}
+
+.donate-item i {
+    font-size: 3rem;
+    color: #f9a825;
+    margin-bottom: 10px;
+}
+
+.donate-item .button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.shop-section {
+    background-color: #FFCB04;
+}
+
+/* Seção da Lojinha */
+.shop-section img {
+    width: 100%;
+    height: 600px;
+}
+
+
+
+/* Rodapé */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+footer .footer-logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+footer .footer-info {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
